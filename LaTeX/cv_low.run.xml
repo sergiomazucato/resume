@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>cv.bcf</file>
+      <file>cv_low.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>cv.bbl</file>
+      <file>cv_low.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -59,6 +59,7 @@
       <file>standard.bbx</file>
       <file>verbose.cbx</file>
       <file>biblatex.cfg</file>
+      <file>german.lbx</file>
       <file>english.lbx</file>
     </requires>
   </internal>
@@ -66,19 +67,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>cv</infile>
+      <infile>cv_low</infile>
     </cmdline>
     <input>
-      <file>cv.bcf</file>
+      <file>cv_low.bcf</file>
     </input>
     <output>
-      <file>cv.bbl</file>
+      <file>cv_low.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>cv.bbl</file>
+      <file>cv_low.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>cv.bcf</file>
+      <file>cv_low.bcf</file>
     </requires>
     <requires type="editable">
       <file>bibliography.bib</file>

@@ -1,9 +1,9 @@
 %!TEX TS-program = xelatex
 \documentclass[]{friggeri-cv}
-%\usepackage{times}
 \usepackage{afterpage}
 \usepackage{hyperref}
 \hypersetup{colorlinks=false,linkbordercolor=red,linkcolor=green,pdfborderstyle={/S/U/W 1}}
+\usepackage[english,german]{babel} 
 
 \usepackage{color}
 \usepackage{xcolor}
@@ -58,7 +58,7 @@
 
 \begin{document}
 \header{Sergio}{Mazucato}
-      {Electrical Engineer}
+      {Electrical Engineer \\ \\}
       
 % Fake text to add separator      
 \fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
@@ -90,7 +90,7 @@
 	\section{Languages}
 	    \textbf{English}\includegraphics[scale=0.40]{img/5stars.png}
 	    \textbf{German}\includegraphics[scale=0.40]{img/4stars.png}
-	    \textbf{Italian!}\includegraphics[scale=0.40]{img/3stars.png}
+	    \textbf{Italian}\includegraphics[scale=0.40]{img/3stars.png}
 	    \textbf{Portuguese}\includegraphics[scale=0.40]{img/5stars.png}
 	    ~
 	\section{Places Lived}
@@ -101,47 +101,52 @@
     	~
 	    Problem solving \includegraphics[scale=0.40]{img/point.png}
 	    Programming \includegraphics[scale=0.40]{img/point.png}
-	    Electronics \includegraphics[scale=0.40]{img/point.png}
+	    Analog electronics \includegraphics[scale=0.40]{img/point.png}
 	    Math \includegraphics[scale=0.40]{img/point.png}
+	    Neural Networks\includegraphics[scale=0.40]{img/point.png}
 	    ~ 
 \end{aside}
 ~
+\\
+
 \section{Experience}
 \begin{entrylist}
   \entry
-    {09/17 - Now}
-    {Technical Consultant}
-    {\normalsize{Gemalto (Stuttgart)}}
-    {As a Technical Consultant, Sergio is the thecnical responsible for the Smartcards Portfolio (chips for bank cards) of the  financial sector. He is in charge of the \textbf{solution design},\textbf{ specification},\textbf{ development management},\textbf{ validation},\textbf{ delivery} and its\textbf{ maintenance}.\\ He is also the technical interface with customers for \textbf{presales} and \textbf{after sales} activities, being responsible for the \textbf{project valuation} in case of new implementations and technical support within the lifecycle of a product, as software troubleshooting on low and high-level programming languages.
+    {11/18 - Now}
+    {Test Managert}
+    {\normalsize{Robert Bosch - on behalf of T\&S (Abstatt)}}
+    {Responsible for the test strategy of ESP products, he is in charge of the definition of test sets, planning and tracking activities and for the release of the final software.
+    \\}
+  \entry
+    {09/17 - 10/18}
+    {Technical Project Managert}
+    {\normalsize{Gemalto (Filderstadt-Sielmingen)}}
+    {In this role Sergio was the thecnical responsible for the Smartcards Portfolio (chips for bank cards) of the  financial sector. He was in charge of the \textbf{solution design},\textbf{ specification},\textbf{ development management},\textbf{ validation},\textbf{ delivery} and its\textbf{ maintenance}.
      \\}
   \entry
     {08/16 - 08/17}
     {Technical Project Manager}
     {\normalsize{Gemalto (Sao Paulo)}}
-    {As a technical project manager, he was responsible for the IT project management in Sao Paulo (Brazil) for the first tier accounts. The standard projects were Data Processing Software and Assembly-like scripts for Smartcards personalization. In this role, the common projects were treated over an \textbf{Agile} approach and the customized projects on a \textbf{PMP} standard.\\}
+    {As a technical project manager, he was responsible for the IT project management in Sao Paulo (Brazil) over the first tier accounts. In this role he also lead and develop tools for the department, as automation and optimization tools. The standard projects of this department were Data Processing Software and Assembly-like scripts, for Smartcards personalization. 
+    %The common projects were treated over an \textbf{Agile} approach and the customized projects on a \textbf{PMP\textsuperscript{\textregistered}} standard.
+    \\}
     \entry
-    {08/15 - 08/16}
+    {02/15 - 08/16}
     {Project Engineer}
     {\normalsize{Gemalto (Sao Paulo)}}
     {As a technical account leader he was responsible for software development on high level (\textbf{javascript} and \textbf{Python}) and low level embedded software (\textbf{assembly}-like) languages, definition of the electrical profile of smartcards and advisory over chip's behavior for several customers. \\}
-    \entry
-    {02/15 - 07/15}
-    {Electrical Engineer - Trainee Role}
-    {\normalsize{Cocal Energia (Sao Paulo)}}
-    {As part of the industrial management team, was deeply involved with the PMO and the electric power generation \& devices maintenance.
-    \\}
     \entry
     {07/14 - 01/15}
     {Technical Consulting internship}
     {\normalsize{Gemalto (Sao Paulo)}}
     {Acted as part of the team responsible for 2nd tier of clients, representing 100k units of cards yearly. The role of the intern was to support the development of software projects and the consultants over the electrical specification of smartcards. \\}
     \entry
-    {01/14 - 07/15}
+    {01/14 - 07/14}
     {Application Engineering internship}
     {\normalsize{Varixx electronics (Sao Paulo)}}
-    {Acted as part of the team responsible for presales activities, the main task of the intern was to analyse the products (circuits) and to develop test-cases for the engineers. This role was also up to the redesign of electrical circuits and documentation update.\\}
+    {Acted as part of the team responsible for presales activities, the main tasks of the intern were to analyse the products (circuits) and to develop test-cases for the engineers. This role was also up to the redesign of \textbf{electrical circuits} and technical writing.}
 \end{entrylist}
-\newpage
+\newpage%
 \section{Education}
 \begin{entrylist}
   \entry
@@ -153,12 +158,13 @@
     {2010 - 2015}
     {Bachelor's degree in Electrical Engineering}
     {Federal University of Parana}
-    {cGPR: 3.28 - Rated as \textbf{best} student of the university at the National Exam for the Assessment of Student Performance, the rank for all other comparisons as city, state and country are above p75 (between the best 25\%). \\}
+    {cGPR: 3.28 - Rated as \textbf{best} student of the university at the National Exam for the Assessment of Student Performance, the rank for all other comparisons as city, state and country were above p75 (between the best 25\%). \\}
   \entry
     {2013}
     {ERASMUS}
     {FH-Zwickau}
-    {IEEE Industrial Electronics Society \textbf{Award} in recognition for a paper presented at IECON2013 in Vienna.}
+    {%IEEE Industrial Electronics Society \textbf{Award} in recognition for a paper presented at IECON2013 in Vienna.}
+    }
 \end{entrylist}
 
 %
@@ -183,15 +189,44 @@
 \\
 \href{http://dx.doi.org/10.1109/IECON.2013.6699436}{\includegraphics[scale=0.11]{img/ieee.jpg} Combining Subpopulation Tables, Non-dominated Solutions and Strength Pareto of MOEAs to treat Service Restoration Problem in Large-Scale Distribution Systems. In: 2013 \textbf{IEEE Industrial Electronics Society}, 2013 Vienna, Austria.}\\
 \\
-\href{http://dx.doi.org/10.1109/PESGM.2012.6345340}{\includegraphics[scale=0.11]{img/ieee.jpg} Simultaneous and coordinated tuning of PSSs and PODs using differential evolution. In: 2012 \textbf{IEEE Power \& Energy Society General Meeting}, 2012, San Diego. 2012 IEEE Power and Energy Society General Meeting.}\\
-\\
+\href{http://dx.doi.org/10.1109/PESGM.2012.6345340}{\includegraphics[scale=0.11]{img/ieee.jpg} Simultaneous and coordinated tuning of PSSs and PODs using differential evolution. In: 2012 \textbf{IEEE Power \& Energy Society General Meeting}, 2012, San Diego. 2012 IEEE Power and Energy Society General Meeting.}%\\
+%\\
+
+\section{Awards}
+\begin{entrylist}
+ 
+  \entry
+    {2013}
+    {IEEE Industrial Electronics Society - Vienna}
+    {}
+    {The IES Student Activities Committee of the Industrial Electronics Society (IES) awarded with financial support 5 Student Members (IEEE-IES) to attend IES Conferences. The best qualified papers were awarded according to the review of each conference - IECON2013.}
+    \entry
+    {2016}
+    {Federal University of Parana - UTFPR}
+    {}
+    {In celebration of the Industry Day, the UTFPR, through the Board of Corporate and Community Relations, honored on the former students who stand out in the market, promoting the name of the university.}
+\end{entrylist}
+
+%
+%\begin{entrylist}
+%  \entry
+%     {2013}
+%     {\textbf{IEEE Industrial Electronics Society} financial award in recognition for a paper presented at IECON2013 in Vienna.}\\
+%  \entry
+%    {2016}
+%    {Federal University of Technology - Outstanding former student.}\\
+%  \\
+%\end{entrylist}
+
+
+
 \section{Complementary Info}
 
 \begin{itemize}
 	\item Linux basic knowledge (10+ years of personal use).
-	\item Volunteer work for three years at two College projects: \textit{"Evolutive algorithms applied to corporeal exercises of people in rehab"} and \textit{"Local factors and regional potentialities of the city Cornelio Procopio"}.
+	\item Volunteer work for three years at two college projects: \textit{ Evolutive algorithms applied to corporeal exercises of people in rehab} and \textit{Local potentialities of the city CP}.
 	\item Teacher assistent during one year for \textit{Electrical Machinery} and \textit{Electricity and Magnetism}.
-	\item This document was generated \footnote{compiled on \today} with Python and \myfont{\LaTeX} \footnote{\url{https://github.com/sergiomazucato/resume}}.\\
+	\item This document was generated \footnote{compiled on \today} with Python and \myfont{\LaTeX} \footnote{\url{https://github.com/sergiomazucato/resume}}.
 \end{itemize}
 
 %\begin{flushleft}
