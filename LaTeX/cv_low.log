@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.12.6)  6 DEC 2018 23:36
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.12.6)  4 MAR 2019 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1564,12 +1564,17 @@ File: img/point.png Graphic file (type bmp)
 File: img/point.png Graphic file (type bmp)
 <img/point.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--149
+Underfull \hbox (badness 10000) in paragraph at lines 127--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--179
 
  []
 
@@ -1580,7 +1585,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 151--169
+Underfull \hbox (badness 10000) in paragraph at lines 182--201
 
  []
 
@@ -1593,43 +1598,38 @@ File: img/ieee.jpg Graphic file (type bmp)
 File: img/ieee.jpg Graphic file (type bmp)
 <img/ieee.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--194
+Underfull \hbox (badness 10000) in paragraph at lines 205--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--194
+Underfull \hbox (badness 10000) in paragraph at lines 205--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--209
+Underfull \hbox (badness 10000) in paragraph at lines 205--213
 
  []
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 229.
+(Font)              scaled to size 8.00012pt on input line 272.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 229.
+(Font)              scaled to size 6.00009pt on input line 272.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 229.
+(Font)              scaled to size 5.00008pt on input line 272.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 229.
+(Font)              scaled to size 7.99988pt on input line 272.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 229.
+(Font)              scaled to size 5.99991pt on input line 272.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 229.
+(Font)              scaled to size 4.99992pt on input line 272.
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
  (./cv_low.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 279.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 279.
 Package logreq Info: Writing requests to 'cv_low.run.xml'.
 \openout1 = `cv_low.run.xml'.
 
@@ -1637,7 +1637,7 @@ Package logreq Info: Writing requests to 'cv_low.run.xml'.
 Here is how much of TeX's memory you used:
  43108 strings out of 493007
  843161 string characters out of 6136719
- 1411616 words of memory out of 5000000
+ 1413616 words of memory out of 5000000
  46498 multiletter control sequences out of 15000+600000
  533598 words of font info for 84 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
